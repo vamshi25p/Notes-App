@@ -6,7 +6,8 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ["moment"], // Externalize 'moment' to prevent build issues
+      // Remove the external configuration for 'moment'
+      // external: ["moment"],
     },
   },
 });

@@ -9,5 +9,10 @@ export default {
       },
     },
   },
+  build: {
+    rollupOptions: {
+      external: ["moment"],
+    },
+  },
   plugins: [],
 };
